@@ -1,0 +1,2 @@
+# NCKUES_MMSoC_Class_HDMI
+給同學學習用的HDMI實作
