@@ -1,0 +1,118 @@
+[
+ {
+  "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/clk_div5/clk_div5.v",
+  "InstLine" : 10,
+  "InstName" : "clk_div5",
+  "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/clk_div5/clk_div5.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "clk_div5"
+ },
+ {
+  "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/hdmi_colorbar.v",
+  "InstLine" : 9,
+  "InstName" : "hdmi_colorbar",
+  "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/hdmi_colorbar.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "hdmi_colorbar",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/hdmi_colorbar.v",
+    "InstLine" : 40,
+    "InstName" : "rpll_pixel_clk_5x",
+    "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/rpll_pixel_clk_5x/rpll_pixel_clk_5x.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "rpll_pixel_clk_5x"
+   },
+   {
+    "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/hdmi_colorbar.v",
+    "InstLine" : 56,
+    "InstName" : "u_video_driver",
+    "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/video_driver.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "video_driver"
+   },
+   {
+    "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/hdmi_colorbar.v",
+    "InstLine" : 72,
+    "InstName" : "u_video_display",
+    "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/video_display.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "video_display"
+   },
+   {
+    "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/hdmi_colorbar.v",
+    "InstLine" : 82,
+    "InstName" : "u_rgb2dvi_0",
+    "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "dvi_transmitter_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 44,
+      "InstName" : "reset_syn",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/asyn_rst_syn.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "asyn_rst_syn"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 52,
+      "InstName" : "encoder_b",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_encoder.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "dvi_encoder"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 63,
+      "InstName" : "encoder_g",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_encoder.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "dvi_encoder"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 74,
+      "InstName" : "encoder_r",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_encoder.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "dvi_encoder"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 85,
+      "InstName" : "serializer_b",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/serializer_10_to_1.v",
+      "ModuleLine" : 11,
+      "ModuleName" : "serializer_10_to_1"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 97,
+      "InstName" : "serializer_g",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/serializer_10_to_1.v",
+      "ModuleLine" : 11,
+      "ModuleName" : "serializer_10_to_1"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 111,
+      "InstName" : "serializer_r",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/serializer_10_to_1.v",
+      "ModuleLine" : 11,
+      "ModuleName" : "serializer_10_to_1"
+     },
+     {
+      "InstFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/dvi_transmitter_top.v",
+      "InstLine" : 125,
+      "InstName" : "serializer_clk",
+      "ModuleFile" : "C:/Users/User/Desktop/GOWIN/NCKUES_MMSoC_Class_HDMI_exp/src/serializer_10_to_1.v",
+      "ModuleLine" : 11,
+      "ModuleName" : "serializer_10_to_1"
+     }
+    ]
+   }
+  ]
+ }
+]

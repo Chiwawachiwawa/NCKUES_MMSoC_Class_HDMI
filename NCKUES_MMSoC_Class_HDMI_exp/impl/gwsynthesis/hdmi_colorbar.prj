@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\asyn_rst_syn.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\clk_div5\clk_div5.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\dvi_encoder.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\dvi_transmitter_top.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\hdmi_colorbar.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\rpll_pixel_clk_5x\rpll_pixel_clk_5x.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\serializer_10_to_1.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_display.v" type="verilog"/>
+        <File path="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_driver.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\impl\gwsynthesis\hdmi_colorbar.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

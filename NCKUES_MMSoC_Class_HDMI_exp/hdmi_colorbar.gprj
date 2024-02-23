@@ -1,0 +1,20 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/asyn_rst_syn.v" type="file.verilog" enable="1"/>
+        <File path="src/clk_div5/clk_div5.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_transmitter_top.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_colorbar.v" type="file.verilog" enable="1"/>
+        <File path="src/rpll_pixel_clk_5x/rpll_pixel_clk_5x.v" type="file.verilog" enable="1"/>
+        <File path="src/serializer_10_to_1.v" type="file.verilog" enable="1"/>
+        <File path="src/video_display.v" type="file.verilog" enable="1"/>
+        <File path="src/video_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_colorbar.cst" type="file.cst" enable="1"/>
+        <File path="src/hdmi_colorbar.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

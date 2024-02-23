@@ -1,0 +1,42 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\asyn_rst_syn.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\clk_div5\clk_div5.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\dvi_encoder.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\dvi_transmitter_top.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\hdmi_colorbar.v'
+Undeclared symbol 'rst_n', assumed default net type 'wire'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\hdmi_colorbar.v":37)
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\rpll_pixel_clk_5x\rpll_pixel_clk_5x.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\serializer_10_to_1.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_display.v'
+Analyzing Verilog file 'C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_driver.v'
+Compiling module 'hdmi_colorbar'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\hdmi_colorbar.v":9)
+Compiling module 'rpll_pixel_clk_5x'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\rpll_pixel_clk_5x\rpll_pixel_clk_5x.v":10)
+Compiling module 'video_driver'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_driver.v":1)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_driver.v":73)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_driver.v":83)
+Compiling module 'video_display'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\video_display.v":8)
+Compiling module 'dvi_transmitter_top'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\dvi_transmitter_top.v":9)
+Compiling module 'asyn_rst_syn'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\asyn_rst_syn.v":10)
+Compiling module 'dvi_encoder'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\dvi_encoder.v":10)
+Compiling module 'serializer_10_to_1'("C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\src\serializer_10_to_1.v":11)
+NOTE  (EX0101) : Current top module is "hdmi_colorbar"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\impl\gwsynthesis\hdmi_colorbar.vg" completed
+[100%] Generate report file "C:\Users\User\Desktop\GOWIN\1_Verilog\23_hdmi_colorbar\impl\gwsynthesis\hdmi_colorbar_syn.rpt.html" completed
+GowinSynthesis finish

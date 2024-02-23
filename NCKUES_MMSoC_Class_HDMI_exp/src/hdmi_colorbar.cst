@@ -1,0 +1,21 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.9 Beta-6
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18
+//Device Version: C
+//Created Time: Wed 11 29 10:08:20 2023
+
+IO_LOC "tmds_clk_p" G16,H15;
+IO_PORT "tmds_clk_p" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "tmds_data_p[2]" K14,K15;
+IO_PORT "tmds_data_p[2]" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "tmds_data_p[1]" J15,K16;
+IO_PORT "tmds_data_p[1]" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "tmds_data_p[0]" H14,H16;
+IO_PORT "tmds_data_p[0]" PULL_MODE=NONE DRIVE=3.5;
+IO_LOC "sys_rst_n" T10;
+IO_PORT "sys_rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "sys_clk" H11;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;

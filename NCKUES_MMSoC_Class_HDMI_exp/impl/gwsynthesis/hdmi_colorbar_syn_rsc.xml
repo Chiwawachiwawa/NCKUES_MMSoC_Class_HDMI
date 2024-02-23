@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="hdmi_colorbar" Lut="2">
+ <SubModule name="rpll_pixel_clk_5x"/>
+ <SubModule name="u_video_driver" Register="26" Lut="63"/>
+ <SubModule name="u_video_display" Register="4" Lut="4"/>
+ <SubModule name="u_rgb2dvi_0">
+  <SubModule name="reset_syn" Register="2"/>
+  <SubModule name="encoder_b" Register="28" Alu="25" Lut="38"/>
+  <SubModule name="encoder_g" Register="30" Alu="49" Lut="45"/>
+  <SubModule name="encoder_r" Register="24" Alu="25" Lut="38"/>
+  <SubModule name="serializer_b"/>
+  <SubModule name="serializer_g"/>
+  <SubModule name="serializer_r"/>
+  <SubModule name="serializer_clk"/>
+ </SubModule>
+</Module>
